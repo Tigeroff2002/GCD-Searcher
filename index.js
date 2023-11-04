@@ -1,4 +1,4 @@
-function gcd(a, b) {
+module.exports = function gcd(a, b) {
     if (a < b){
         const temp = a;
         a = b;
